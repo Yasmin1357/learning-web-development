@@ -1,0 +1,65 @@
+/* =====================
+   MARGINS & PADDING
+===================== */
+.box {
+  margin: 20px;
+  padding: 15px;
+  background-color: lightgray;
+}
+
+/* =====================
+   TEXT FORMATTING
+===================== */
+.text p {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* =====================
+   COLOURS
+===================== */
+.color-box {
+  background-color: #6a5acd;
+  color: white;
+  padding: 20px;
+}
+
+/* =====================
+   BACKGROUNDS
+===================== */
+.bg-box {
+  background-image: linear-gradient(to right, pink, purple);
+  padding: 20px;
+}
+
+/* =====================
+   BORDERS & OUTLINES
+===================== */
+.border-box {
+  border: 2px solid black;
+  outline: 2px dashed red;
+  padding: 15px;
+}
+
+/* =====================
+   FONTS
+===================== */
+.font-text {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* =====================
+   LAYOUTS
+===================== */
+.layout {
+  display: flex;
+  gap: 10px;
+}
+
+.layout div {
+  background-color: lightblue;
+  padding: 20px;
+}
